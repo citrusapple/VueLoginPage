@@ -30,10 +30,8 @@ import ModalForm from './components/ModalForm.vue'
 </script>
 <style>
 body {
-  background-color: #EEEEEE;
-  font-family: 'Montserrat', sans-serif;
   display: grid;
+  align-content: center;
   justify-items: center;
-  padding-top: 50px;
 }
 </style>

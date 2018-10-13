@@ -1,12 +1,4 @@
 <template>
-
-</template>
-
-<script>
- 
- const ModalForm = {
-        props: ['email', 'password'],
-        template: `
             <form action="">
                 <div class="modal-card" style="width: auto">
                     <header class="modal-card-head">
@@ -40,10 +32,16 @@
                     </footer>
                 </div>
             </form>
-        `
+</template>
+
+<script>
+ 
+/*  const ModalForm = {
+        props: ['email', 'password'],
     }
 
     export default {
+        name: "ModalForm",
         components: {
             ModalForm
         },
@@ -57,7 +55,7 @@
             }
         }
     }
-   
+    */
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

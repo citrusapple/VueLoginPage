@@ -4,7 +4,6 @@
             @click="isComponentModalActive = true">
             Launch component modal
         </button>
-
         <b-modal :active.sync="isComponentModalActive" has-modal-card>
             <ModalForm />
         </b-modal>
@@ -28,10 +27,8 @@ import ModalForm from './components/ModalForm.vue'
         }
     }
 </script>
-<style>
-body {
-  display: grid;
-  align-content: center;
-  justify-items: center;
+<style scoped>
+.button {
+    align-items: center;
 }
 </style>
